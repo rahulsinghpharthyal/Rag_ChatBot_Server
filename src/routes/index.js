@@ -9,7 +9,7 @@ const router = express.Router();
 
 // ---------------- PUBLIC ROUTES----------------
 router.post('/chat/general', chatWithAI);
-router.post('/rag/chat', chatWithRag);
+router.post('/chat/rag', chatWithRag);
 router.post("/rag/upload", uploadPDF.single("pdf"), uploadAndIndexPDF);
 
 

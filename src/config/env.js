@@ -22,3 +22,7 @@ export const GROQ_API_KEY = process.env.GROQ_API_KEY
 export const DEBUG = process.env.DEBUG
 export const TAVILY_API_KEY = process.env.TAVILY_API_KEY
 export const PINECONE_API_KEY = process.env.PINECONE_API_KEY
+
+export const FRONTEND_URL1= process.env.FRONTEND_URL1
+export const FRONTEND_URL2= process.env.FRONTEND_URL2
+
